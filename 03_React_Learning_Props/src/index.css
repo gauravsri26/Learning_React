@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.parent {
+  background-color: antiquewhite;
+  width: 500px;
+  height: 200px;
+  margin: 10px 10px;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.card{
+  width: 100%;
+  align-items: center;
+}
+
+.card h1{
+  font-weight: 800;
+  margin: 5px 0px;
+}
+
+.card h3{
+  font-style: italic;
+  font-weight: 200;
+  margin: 5px;
+}
